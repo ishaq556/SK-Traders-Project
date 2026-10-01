@@ -49,9 +49,32 @@ input{
     align-items: center;
     padding-left: 50px;
 }
+
 label{
         font-weight: bold;
         padding-top: 10px;
+}
+.input-box {
+    position: relative;
+    width: 400px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
 p{
     font-size: 40px;
@@ -60,35 +83,14 @@ p{
 span{
     font-size: 15px;
 }
-#confirm-passowrd-icon{
-    position: absolute;
-    top: 535px;
-    left: 600px;
-}
+
+
 ::placeholder{
     padding-left: 25px;
 
 }
-#password-icon{
-    position:absolute;
-    top: 440px;
-    left: 600px;
-}
-#Phone-icon{
-    position: absolute;
-    top: 350px;
-    left: 597px;
-}
-#Email-icon{
-    position: absolute;
-    top: 258px;
-    left: 597px;
-}
-#user-icon{
-    position: absolute;
-    top: 163px;
-    left: 600px;
-}
+
+
 #checkbox-terms{
     display: flex;
     width: 500px;
@@ -112,5 +114,4 @@ align-items: center;
 #Already{
     font-size: 20px;
     padding-top: 10px;
-    paddtin -bottom: 20px;
 }
