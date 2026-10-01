@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: static;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 50px;
+
+}
+#container {
+    height: 700px;
+    width: 560px ;
+    background-color: rgb(251, 251, 251);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding-top: 20px;
+
+}
+#signup{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    width: 400px;
+    font-size: 20px;
+    gap: 10px
+
+}
+input{
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+label{
+        font-weight: bold;
+        padding-top: 10px;
+}
+p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+span{
+    font-size: 15px;
+}
+#confirm-passowrd-icon{
+    position: absolute;
+    top: 535px;
+    left: 600px;
+}
+::placeholder{
+    padding-left: 25px;
+
+}
+#password-icon{
+    position:absolute;
+    top: 440px;
+    left: 600px;
+}
+#Phone-icon{
+    position: absolute;
+    top: 350px;
+    left: 597px;
+}
+#Email-icon{
+    position: absolute;
+    top: 258px;
+    left: 597px;
+}
+#user-icon{
+    position: absolute;
+    top: 163px;
+    left: 600px;
+}
+#checkbox-terms{
+    display: flex;
+    width: 500px;
+    
+align-items: center;
+    
+    gap: 5px;
+}
+
+#Terms{
+    font-size: 15px;
+}
+#signup-button{
+    width: 400px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#Already{
+    font-size: 20px;
+    padding-top: 10px;
+    paddtin -bottom: 20px;
+}
